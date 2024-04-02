@@ -1,0 +1,39 @@
+{
+  "name": "cwh",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.21.1",
+    "@strapi/plugin-i18n": "4.21.1",
+    "@strapi/plugin-users-permissions": "4.21.1",
+    "@strapi/strapi": "4.21.1",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "eccfa4e2-4891-4296-a0cb-6df38c3ac05b"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
